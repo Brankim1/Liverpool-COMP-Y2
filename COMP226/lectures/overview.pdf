@@ -1,0 +1,1405 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 16 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 15 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Outlines 8 0 R /PageLabels 17 0 R /PageMode /UseNone /Pages 15 0 R /Type /Catalog
+>>
+endobj
+7 0 obj
+<<
+/Author () /CreationDate (D:20190404124916+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190404124916+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Overview of COMP226) /Trapped /False
+>>
+endobj
+8 0 obj
+<<
+/Count 6 /First 9 0 R /Last 14 0 R /Type /Outlines
+>>
+endobj
+9 0 obj
+<<
+/Dest [ 5 0 R /XYZ 34.34646 659.0236 0 ] /Next 10 0 R /Parent 8 0 R /Title (R basics \(from all slides and assignments\))
+>>
+endobj
+10 0 obj
+<<
+/Dest [ 5 0 R /XYZ 34.34646 401.0236 0 ] /Next 11 0 R /Parent 8 0 R /Prev 9 0 R /Title (Equities and futures)
+>>
+endobj
+11 0 obj
+<<
+/Dest [ 5 0 R /XYZ 34.34646 332.0236 0 ] /Next 12 0 R /Parent 8 0 R /Prev 10 0 R /Title (Microstructure)
+>>
+endobj
+12 0 obj
+<<
+/Dest [ 5 0 R /XYZ 34.34646 155.0236 0 ] /Next 13 0 R /Parent 8 0 R /Prev 11 0 R /Title (Performance Measurement)
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 5 0 R /XYZ 309.0236 573.0236 0 ] /Next 14 0 R /Parent 8 0 R /Prev 12 0 R /Title (Trading Strategies)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 5 0 R /XYZ 309.0236 390.0236 0 ] /Parent 8 0 R /Prev 13 0 R /Title (Backtesting)
+>>
+endobj
+15 0 obj
+<<
+/Count 1 /Kids [ 5 0 R ] /Type /Pages
+>>
+endobj
+16 0 obj
+<<
+/Length 18118
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 34.34646 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 19.80276 0 Td (Overview of COMP226) Tj T* -19.80276 0 Td ET
+Q
+Q
+q
+1 0 0 1 34.34646 671.0236 cm
+q
+BT 1 0 0 1 0 50 Tm 2.796939 Tw 12 TL /F1 10 Tf 0 0 0 rg (During the module we considered examples in R for) Tj T* 0 Tw 3.432216 Tw (almost all topics. These examples appeared both in) Tj T* 0 Tw 6.426378 Tw (lectures/slides, worksheets, and assessments. You) Tj T* 0 Tw 2.513189 Tw (should have a thorough understanding of all these R) Tj T* 0 Tw (examples.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 617.0236 cm
+q
+BT 1 0 0 1 0 24.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (R basics \(from all slides and) Tj T* (assignments\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 605.0236 cm
+Q
+q
+1 0 0 1 34.34646 605.0236 cm
+Q
+q
+1 0 0 1 34.34646 593.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (vectorized arithmetic) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 587.0236 cm
+Q
+q
+1 0 0 1 34.34646 575.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (vectors, ) Tj /F3 10 Tf 0 0 0 rg (order) Tj /F1 10 Tf 0 0 0 rg (, and subsetting) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 569.0236 cm
+Q
+q
+1 0 0 1 34.34646 557.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (seq) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 551.0236 cm
+Q
+q
+1 0 0 1 34.34646 539.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (sum) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (cumsum) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (prod) Tj /F1 10 Tf 0 0 0 rg ( and ) Tj /F3 10 Tf 0 0 0 rg (cumprod) Tj /F1 10 Tf 0 0 0 rg (, etc.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 533.0236 cm
+Q
+q
+1 0 0 1 34.34646 521.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (max) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (cummax) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (min) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (cummin) Tj /F1 10 Tf 0 0 0 rg (, etc.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 515.0236 cm
+Q
+q
+1 0 0 1 34.34646 503.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (matrix) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (data.frame) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 497.0236 cm
+Q
+q
+1 0 0 1 34.34646 485.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (apply) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (lapply) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (mapply) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (sapply) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 479.0236 cm
+Q
+q
+1 0 0 1 34.34646 467.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (functions) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 461.0236 cm
+Q
+q
+1 0 0 1 34.34646 449.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (xts) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 443.0236 cm
+Q
+q
+1 0 0 1 34.34646 431.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (global assignment \() Tj /F3 10 Tf 0 0 0 rg (<) Tj (<) Tj (-) Tj /F1 10 Tf 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 425.0236 cm
+Q
+q
+1 0 0 1 34.34646 413.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (endpoints) Tj /F1 10 Tf 0 0 0 rg ( \(e.g. for in-sample/out-of-sample\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 413.0236 cm
+Q
+q
+1 0 0 1 34.34646 380.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Equities and futures) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 368.0236 cm
+Q
+q
+1 0 0 1 34.34646 368.0236 cm
+Q
+q
+1 0 0 1 34.34646 344.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.541102 Tw (adjusted prices \(stock dividends, cash dividends,) Tj T* 0 Tw (stock splits\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 344.0236 cm
+Q
+q
+1 0 0 1 34.34646 311.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Microstructure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 299.0236 cm
+Q
+q
+1 0 0 1 34.34646 299.0236 cm
+Q
+q
+1 0 0 1 34.34646 287.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Limit order books/ dark pools) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 281.0236 cm
+Q
+q
+1 0 0 1 34.34646 269.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Market orders versus limit orders) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 263.0236 cm
+Q
+q
+1 0 0 1 34.34646 251.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Average execution price) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 245.0236 cm
+Q
+q
+1 0 0 1 34.34646 233.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Slippage) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 227.0236 cm
+Q
+q
+1 0 0 1 34.34646 215.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Dark Pools of liquidity) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 209.0236 cm
+Q
+q
+1 0 0 1 34.34646 185.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 21.28517 Tw (Exeuction algorithms: VWAP, TWAP,) Tj T* 0 Tw (Implementation Shortfall) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 179.0236 cm
+Q
+q
+1 0 0 1 34.34646 167.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Profit seeking versus execution algorithms) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 167.0236 cm
+Q
+q
+1 0 0 1 34.34646 134.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Performance Measurement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 122.0236 cm
+Q
+q
+1 0 0 1 34.34646 122.0236 cm
+Q
+q
+1 0 0 1 34.34646 110.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Simple and log returns \(motivation and definitions\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 104.0236 cm
+Q
+q
+1 0 0 1 34.34646 92.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Conversions between simple and log returns) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 34.34646 86.02362 cm
+Q
+q
+1 0 0 1 309.0236 729.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 2.08839 Tw 12 TL /F1 10 Tf 0 0 0 rg (Returns for long and short trades e.g. for a long) Tj T* 0 Tw .515551 Tw (trade with entry price ) Tj /F3 10 Tf 0 0 0 rg (e) Tj /F1 10 Tf 0 0 0 rg ( and exit price ) Tj /F3 10 Tf 0 0 0 rg (x) Tj /F1 10 Tf 0 0 0 rg (, the simple) Tj T* 0 Tw (return is ) Tj /F3 10 Tf 0 0 0 rg (\(x-e\)/e) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 723.0236 cm
+Q
+q
+1 0 0 1 309.0236 711.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Equity curves \(aggregating returns/profit and loss\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 705.0236 cm
+Q
+q
+1 0 0 1 309.0236 681.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 5.097102 Tw (Sharpe Ratio, Information Ratio, Sortino Ratio) Tj T* 0 Tw (\(using Downside Deviation\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 675.0236 cm
+Q
+q
+1 0 0 1 309.0236 651.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 18.32184 Tw (Maximum drawdown \(return-based and) Tj T* 0 Tw (profit-and-loss-based\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 645.0236 cm
+Q
+q
+1 0 0 1 309.0236 633.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Calmar Ratio) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 627.0236 cm
+Q
+q
+1 0 0 1 309.0236 603.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .985102 Tw (Similarities and differences between Sharpe Ratio,) Tj T* 0 Tw (Information Ratio, Sortino Ratio, and Calmar Ratio) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 597.0236 cm
+Q
+q
+1 0 0 1 309.0236 585.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Perfect profit/perfect return \(using perfect position\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 585.0236 cm
+Q
+q
+1 0 0 1 309.0236 552.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Trading Strategies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 540.0236 cm
+Q
+q
+1 0 0 1 309.0236 540.0236 cm
+Q
+q
+1 0 0 1 309.0236 528.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Moving averages \(simple and exponential\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 522.0236 cm
+Q
+q
+1 0 0 1 309.0236 510.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Moving averages as filters) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 504.0236 cm
+Q
+q
+1 0 0 1 309.0236 492.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bollinger Bands) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 486.0236 cm
+Q
+q
+1 0 0 1 309.0236 474.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Path-dependent and path-independent strategies) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 468.0236 cm
+Q
+q
+1 0 0 1 309.0236 456.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Example of simple strategies in R) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 450.0236 cm
+Q
+q
+1 0 0 1 309.0236 438.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Holding period, profit target, stop loss) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 432.0236 cm
+Q
+q
+1 0 0 1 309.0236 420.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Momentum versus mean-reversion) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 414.0236 cm
+Q
+q
+1 0 0 1 309.0236 402.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Spread trading) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 402.0236 cm
+Q
+q
+1 0 0 1 309.0236 369.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Backtesting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 357.0236 cm
+Q
+q
+1 0 0 1 309.0236 357.0236 cm
+Q
+q
+1 0 0 1 309.0236 345.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Counting parameter combinations) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 339.0236 cm
+Q
+q
+1 0 0 1 309.0236 327.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Choosing paramater ranges) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 321.0236 cm
+Q
+q
+1 0 0 1 309.0236 309.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Grid search) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 303.0236 cm
+Q
+q
+1 0 0 1 309.0236 291.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Fitness landscape) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 285.0236 cm
+Q
+q
+1 0 0 1 309.0236 231.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Cross-validation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 33 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (In-sample, out-of-sample tests) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Walk-forward testing) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 225.0236 cm
+Q
+q
+1 0 0 1 309.0236 135.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Biases:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 69 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Look-ahead bias) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Survivorship Bias) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Data-snooping Bias) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Time period Bias) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 309.0236 135.0236 cm
+Q
+ 
+endstream
+endobj
+17 0 obj
+<<
+/Nums [ 0 18 0 R ]
+>>
+endobj
+18 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000073 00000 n 
+0000000124 00000 n 
+0000000231 00000 n 
+0000000343 00000 n 
+0000000448 00000 n 
+0000000653 00000 n 
+0000000757 00000 n 
+0000001033 00000 n 
+0000001105 00000 n 
+0000001248 00000 n 
+0000001380 00000 n 
+0000001507 00000 n 
+0000001643 00000 n 
+0000001774 00000 n 
+0000001885 00000 n 
+0000001945 00000 n 
+0000020116 00000 n 
+0000020157 00000 n 
+trailer
+<<
+/ID 
+[<35bd0b434aac649494e26252e40f74a3><35bd0b434aac649494e26252e40f74a3>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 19
+>>
+startxref
+20191
+%%EOF
