@@ -1,0 +1,9 @@
+<project default="propertyExample">
+
+
+<target name="propertyExample">
+	<property name="src" value="source_directory"/>
+	<echo>${src}</echo>
+</target>
+
+</project>

@@ -1,0 +1,12 @@
+<project default="echoExample">
+
+
+<target name="echoExample">
+
+	<echo>Hello World</echo>
+
+</target>
+
+
+
+</project>

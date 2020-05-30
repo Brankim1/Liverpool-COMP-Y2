@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<project name="Labtest" default="test">
+
+<property name="src" value="src" />
+<property name="build.classes" value="build/classes" /> <!--store compiled files *.class-->
+<property name="test.report" value="test/reports" /> <!--store xml report-->
+<property name="test.src" value="test/src" />
+
+<path id="test.classpath">
+   <pathelement location="${build.classes}"/>
+   <fileset dir="lib"><include name="**/*.jar" /></fileset>
+</path>
+
+<target name="clean"  >      <!--avoid files duplicate-->
+    <delete dir="build" />
+    <delete dir="${test.report}"  />
+</target>
+
+<target name="init" depends="clean">
+    <mkdir dir="${build.classes}" /> <!--build/classes-->
+    <mkdir dir="${test.report}" /> <!--test/report-->
+</target>
+
+<target name="compile" depends="init" >
+    <javac srcdir="${src}"
+           destdir="${build.classes}"  
+           includeAntRuntime="no"/>
+</target>
+
+<target name="test-compile" depends="compile">
+    <javac includeAntRuntime="false" 
+           srcdir="${test.src}" 
+           destdir="${build.classes}"
+           classpathref="test.classpath">
+    </javac>
+</target>
+
+<target name="test" depends="test-compile">
+    <junit haltonfailure="false"
+           printsummary="false"
+		   errorProperty="test.failed"
+           failureProperty="test.failed"> 
+           <formatter type="xml" usefile="true"/>
+           <classpath refid="test.classpath"/>
+           <batchtest todir="${test.report}">
+           <fileset dir="${build.classes}" 
+               includes="**/*Test.class"/>
+           </batchtest>
+    </junit>
+    <junitreport todir="${test.report}">
+        <fileset dir="${test.report}">
+            <include name="TEST-*.xml"/>
+        </fileset>
+        <report format="frames" 
+                todir="${test.report}"/>
+    </junitreport>
+    <fail message="Tests failed. Check log and/or reports." 
+          if="test.failed"/>  <!--test fail message-->
+</target>
+
+</project>

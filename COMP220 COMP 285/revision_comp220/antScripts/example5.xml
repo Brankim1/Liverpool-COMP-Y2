@@ -1,0 +1,10 @@
+<project default="compile">
+
+
+<target name="compile">
+	<javac includeantruntime="no" srcdir="src5" destdir="build5/classes">
+			
+		</javac>
+</target>
+
+</project>
